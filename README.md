@@ -7,6 +7,34 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## ACERCA DE SVIRA
+Instrucciones para la instalación del sistema SVIRA, primero clonar el repositorio con:
+
+- git clone https://github.com/JuniorMCF/SVIRA.git
+
+Luego, tenemos que instalar las dependencias, previamente ubicandonos en la carpeta del proyecto 
+
+- composer install
+
+Así mismo, es necesario instalar las dependencias de NPM, ya sea con:
+
+- npm install
+
+Por ultimo necesitamos copiar las credenciales de la aplicacion, que se encuentran en .env.example hacia nuestro archivo .env
+
+- copy .env.example .env
+
+## Sobre la base de datos
+
+Utilizamos MySQL y XAMPP con la configuración para el servidor local, necesitamos copiar el archivo de la base de datos adjunto en el drive  "svira.sql" en nuestro phpMyAdmin, importamos y listo, solo bastaria correr las migraciones y las semillas hacia la base de datos desde la aplicacion
+
+- php artisan migrate:fresh
+- php artisan db:seed
+
+Por ultimo corremos el servidor local con:
+
+- php artisan serve
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
