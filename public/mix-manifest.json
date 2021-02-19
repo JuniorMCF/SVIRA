@@ -1,0 +1,12 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/js/vaccine.js": "/js/vaccine.js",
+    "/js/chat.js": "/js/chat.js",
+    "/js/salachat.js": "/js/salachat.js",
+    "/js/medicalappointment.js": "/js/medicalappointment.js",
+    "/js/citas.js": "/js/citas.js",
+    "/css/app.css": "/css/app.css",
+    "/css/medicalappointment.css": "/css/medicalappointment.css",
+    "/css/salachat.css": "/css/salachat.css",
+    "/css/chat.css": "/css/chat.css"
+}

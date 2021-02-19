@@ -1,0 +1,32 @@
+.chat ul {
+  overflow-x: hidden;
+  height: 60vh;
+  overflow-y: scroll;
+  padding: 0;
+}
+.chat ul .image-chat {
+  width: 15%;
+  padding: 1vh;
+}
+.chat ul .image-chat svg {
+  height: 1vh;
+  height: auto;
+}
+.chat ul .comment-chat {
+  width: 85%;
+  padding: 1vh;
+  font-size: 1.3vh;
+}
+.chat ul .image-chat-right {
+  width: 15%;
+  padding: 1vh;
+}
+.chat ul .image-chat-right svg {
+  height: 1vh;
+  height: auto;
+}
+.chat ul .comment-chat-right {
+  width: 85%;
+  padding: 1vh;
+  font-size: 1.3vh;
+}
